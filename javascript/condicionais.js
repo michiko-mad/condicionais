@@ -14,3 +14,35 @@ function verificar()
     }
 
 }
+
+let num1, num2, resultado2
+function verificar2()
+{
+    num1 = Number(document.getElementById("num1").value)
+    num2 = Number(document.getElementById("num2").value)
+    resultado2 = document.getElementById("resultado2")
+
+    if (num1 > num2){
+        resultado2.innerHTML = num1-num2
+    }else if(num2 > num1){
+        resultado2.innerHTML = num2-num1
+    }
+}
+
+let n1, n2, n3, n4
+function verificar3()
+{
+    n1 = Number(document.getElementById("n1").value)
+    n2 = Number(document.getElementById("n2").value)
+    n3 = Number(document.getElementById("n3").value)
+    n4 = Number(document.getElementById("n4").value)
+    resultado3 = document.getElementById("resultado3")
+
+    if (n1 >= 5){
+        resultado3.innerHTML = aprovado
+    }else if(n1/n2/n3/n4){
+
+    }
+
+
+}
